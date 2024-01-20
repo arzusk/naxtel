@@ -29,7 +29,7 @@
     color: white;
 }
 .logo-img{
-    width: 90px;
+    width: 108px;
     height: 60px;
     
 }
@@ -43,6 +43,9 @@
     height: 120px;
     align-items: center;
 }
+.down-nav{
+    width: 100%;
+}
 .down-nav ul{
     display: flex;
     margin-top: 40px;
@@ -50,7 +53,7 @@
 }
 .down-nav ul li{
     list-style: none;
-    padding-left: 13px;
+    padding-left: 18px;
 }
 .down-nav ul li a{
     font-size: 16px;
@@ -99,11 +102,113 @@
 .plus{
     margin-top: 100px;
     width: 100%;
-    height: 445px;
+    height: 370px;
+ background-color: #ff9100;
+}
+.plus-back img{
+   width: 662px;
+   height: 320px;
+   margin-top: 50px;
+}
+.plus-text{
+  
+    margin-top: 20px;
+}
+.plus-text span{
+    display: inline-block;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.plus-text p{
+    color: #fff;
+    font-size: 20px;
+}
+.plus-logo img{
+    width: 60px;
+    height: 60px;
+}
+.store-img img{
+  width: 112px;
+  height: 32px;
+  margin-right: 10px;
+}
+#offer{
+    padding-top: 100px;
+    display: flex;
+   
+}
+.circle p{
+    color: gray;
+    font-size: 20px;
+    margin-left: 40px;
+}
+#offer h1{
+    text-align: center;
+    color: rgba(128, 128, 128, 0.76);
+    margin-bottom: 80px;
+}
+.circle{
+    width: 250px;
+    height: 320px;
+    margin-left: 40px;
+}
+.circle img{
+    width: 160px;
+    height: 160px;
   
 }
-
-
+.circle button{
+    background-color: white;
+    border: 1px solid #ff9100;
+    padding: 5px 30px ;
+    border-radius: 30px;
+    margin-left: 30px;
+}
+.circle button:hover{
+    background-color: #ff9100;
+}
+.text-box{
+    width: 560px;
+    height: 280px;
+    padding: 30px;
+}
+#naxtel-text{
+    background-color: rgba(219, 218, 218, 0.671);
+}
+.naxtel-text-box h1{
+    padding-top: 50px;
+    color: gray;
+    text-align: center;
+}
+.naxtel-text-box h4{
+    color: gray; 
+}
+.text-box span,p{
+    color: rgba(128, 128, 128, 0.76);
+}
+.text-box p{
+    font-size: 15px;
+}
+.text-box-second{
+    width: 560px;
+    height: 280px;
+    padding: 30px;
+}
+.text-box-second span,p{
+    color: rgba(128, 128, 128, 0.76);
+}
+.text-box-second p{
+    font-size: 15px;
+}
+.footer-section{
+    background-color: #3c98a7;
+    padding-top: 50px;
+}
+.footer-box h5,p{
+ color: white;
+}
 @media only screen and (max-width: 600px) {
     .down-nav{
         display: none;
@@ -118,6 +223,9 @@
         color: #ff9100;
     }
     .search{
+        display: none;
+    }
+    .plus-back{
         display: none;
     }
     .slider{

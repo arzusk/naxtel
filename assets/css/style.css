@@ -1,0 +1,130 @@
+.header-up{
+    width: 100%;
+    height: 40px;
+    background-color: #ff9100;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    padding-left: 5px;
+}
+.navbar ul a{
+    text-decoration:  none;
+    color: white;
+}
+.nav-bar-right {
+    display: flex;
+    justify-content: right;
+    padding-top: 5px;
+}
+.nav-bar-right li{
+    list-style: none;
+
+}
+
+.nav-bar-right a{
+    text-decoration:  none;
+    color: white;
+}
+.logo-img{
+    width: 90px;
+    height: 60px;
+    
+}
+.logo-img img{
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+.header-down{
+    width: 100%;
+    height: 120px;
+    align-items: center;
+}
+.down-nav ul{
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+}
+.down-nav ul li{
+    list-style: none;
+    padding-left: 13px;
+}
+.down-nav ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: rgba(99, 97, 97, 0.733);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bars{
+    display: none;
+}
+.search{
+    margin-top: 40px;
+    display: flex;
+    justify-content: right;
+}
+.fa-magnifying-glass{
+    color: black;
+}
+.slider{
+    width: 100%;
+    height: 540px;
+    background-image: url(../images/1-lik.jpg);
+    background-size: cover;
+}
+.cards-boxes{
+    width: 100%;
+}
+.card-name h2{
+  color: rgba(78, 76, 76, 0.712);
+  text-align: center;
+ 
+}
+.card-box{
+    margin-top: 100px;
+    width: 360px;
+    height: 460px;
+    background-image: url(../images/Avantaj-10_2.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#naxtel-plus{
+    width: 100%;
+}
+.plus{
+    margin-top: 100px;
+    width: 100%;
+    height: 445px;
+  
+}
+
+
+@media only screen and (max-width: 600px) {
+    .down-nav{
+        display: none;
+    }
+    .bars{
+        display: block;
+        margin-left: 100px;
+        margin-top: 45px;
+    }
+    .bars .fa-bars{
+        font-size: 30px;
+        color: #ff9100;
+    }
+    .search{
+        display: none;
+    }
+    .slider{
+
+        width: 100%;
+    height: 200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+  }
